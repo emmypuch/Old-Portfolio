@@ -13,11 +13,37 @@ body {
 
 .sidebar {
     height: 100vh;
-    background-color: black;
+    background-color: rgb(15, 94, 99);
     color: white;
     position: fixed;
     grid-area: sidebar;
     width: calc(33.3/100 * 100%);
+    display: inherit;
+    justify-items: center;
+    align-items: center;
+    padding: 3px;
+}
+
+img {
+    width: 50%;
+    border-radius: 50%;
+    box-shadow: 0 3px 25px 0 rgb(87, 175, 181);
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: -4em;
+    font-size: 40px;
+}
+
+.role {
+    margin-top: -18em;
+    font-size: 20px;
+    margin-bottom: -3em;
+}
+
+.aboutme {
+    margin-top: -20em;
 }
 
 .main {
