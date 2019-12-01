@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    width: 100vw;
+    grid-template-areas: 'sidebar main main';
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.sidebar {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: fixed;
+    grid-area: sidebar;
+    width: calc(33.3/100 * 100%);
+}
+
+.main {
+    grid-area: main;
+    width: 95%;
+    font-size: 30px;
+    padding: 20px;
+}
