@@ -181,7 +181,7 @@ p.descriptionText {
   }
 
   .sidebar {
-    height: 80%;
+    height: 250px;
     background-color: rgb(15, 94, 99);
     color: white;
     grid-area: sidebar;
@@ -195,7 +195,7 @@ p.descriptionText {
     width: 30%;
     border-radius: 50%;
     position: absolute;
-    top: 45%;
+    top: 255px;
     left: 35%;
     box-shadow: 0 3px 25px 0 rgb(87, 175, 181);
   }
