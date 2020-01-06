@@ -147,6 +147,7 @@ footer {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
   border-radius: 5px;
   font-size: 16pt;
 }
