@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css?family=Solway&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(115, 189, 194);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(15, 94, 99);
+}
 
 body {
   margin: 0;
@@ -18,6 +39,7 @@ body {
 }
 
 .sidebar {
+  overflow-y: auto;
   height: 100%;
   background-color: rgb(15, 94, 99);
   color: white;
@@ -81,7 +103,7 @@ h4 {
   padding: 15px 50px;
   background-color: rgba(255, 255, 255, 0.8);
   color: rgba(0, 0, 0, 0.8);
-  width: 70%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -115,7 +137,8 @@ h2 {
 }
 
 .stacks li {
-  display: inline;
+  display: inline-block;
+  margin-top: 10px;
   padding: 25px;
   background-color: white;
   border-radius: 10px;
@@ -143,6 +166,7 @@ footer {
   border: 2px solid rgb(15, 94, 99);
   color: rgb(15, 94, 99);
   height: 150px;
+  overflow: hidden;
   width: 200px;
   display: inline-flex;
   justify-content: center;
