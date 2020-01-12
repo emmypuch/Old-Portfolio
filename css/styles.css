@@ -18,7 +18,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(15, 94, 99);
+  background: rgb(74, 170, 177);
 }
 
 body {
@@ -190,6 +190,13 @@ p.descriptionText {
 
 /* Mobile Responsiveness */
 @media screen and (max-width: 425px) {
+  ::-webkit-scrollbar,
+  ::-webkit-scrollbar-track,
+  ::-webkit-scrollbar-thumb,
+  ::-webkit-scrollbar-thumb:hover {
+    display: none;
+  }
+
   body {
     margin: 0;
     padding: 0;
@@ -206,7 +213,7 @@ p.descriptionText {
   }
 
   .sidebar {
-    height: 250px;
+    height: 300px;
     background-color: rgb(15, 94, 99);
     color: white;
     grid-area: sidebar;
@@ -220,7 +227,7 @@ p.descriptionText {
     width: 30%;
     border-radius: 50%;
     position: absolute;
-    top: 255px;
+    top: 245px;
     left: 35%;
     box-shadow: 0 3px 25px 0 rgb(87, 175, 181);
   }
@@ -283,14 +290,17 @@ p.descriptionText {
   p.descriptionText {
     font-size: 18px;
   }
+
   #work {
     display: block;
+    margin-left: 16px;
   }
 
   #work .work-item {
+    margin-left: 20px;
     border: 2px solid rgb(15, 94, 99);
     color: rgb(15, 94, 99);
-    height: 150px;
+    height: 200px;
     width: 200px;
     margin-bottom: 10px;
     display: inline-flex;
