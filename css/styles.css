@@ -293,7 +293,7 @@ p.descriptionText {
 
   #work {
     display: block;
-    margin-left: 22px;
+    margin-left: 62px;
   }
 
   #work .work-item {
@@ -336,6 +336,18 @@ p.descriptionText {
     position: initial;
   }
 }
+
+ @media screen and (max-width: 320px) {
+  #work {
+    display: block;
+    margin-left: 22px;
+  }
+
+  @media screen and (max-width: 375px) {
+  #work {
+    display: block;
+    margin-left: 18px;
+  }
 
 /* Tablet Responsiveness */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
