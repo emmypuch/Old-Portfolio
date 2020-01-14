@@ -298,7 +298,7 @@ p.descriptionText {
 
   #work {
     display: block;
-    margin-left: 4.2rem;
+    margin-left: 40px;
   }
 
   #work .work-item {
@@ -345,13 +345,13 @@ p.descriptionText {
  @media screen and (max-width: 320px) {
   #work {
     display: block;
-    margin-left: 22px;
+    margin-left: 27px;
   }
 
   @media screen and (max-width: 375px) {
   #work {
     display: block;
-    margin-left: 18px;
+    margin-left: 10px;
   }
 
 /* Tablet Responsiveness */
