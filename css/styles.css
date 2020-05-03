@@ -515,13 +515,13 @@ p.descriptionText {
   #work .work-item {
     border: 2px solid rgb(15, 94, 99);
     color: rgb(15, 94, 99);
-    height: 150px;
-    width: 200px;
+    height: 140px;
+    width: 142px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    font-size: 16pt;
+    font-size: 13pt;
   }
 
   #work .work-item:hover {
