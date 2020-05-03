@@ -301,13 +301,13 @@ p.descriptionText {
 
   #work {
     display: grid;
-    /* margin-left: 23%; */
+    margin-left: 10%;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
   }
 
   #work .work-item {
-    margin-left: 23px;
+    /* margin-left: 23px; */
     border: 2px solid rgb(15, 94, 99);
     color: rgb(15, 94, 99);
     height: 120px;
@@ -362,12 +362,13 @@ p.descriptionText {
 @media screen and (max-width: 375px) {
   #work {
     display: grid;
+    margin-left: 10%;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
   }
 
   #work .work-item {
-    margin-left: 22px;
+    /* margin-left: 22px; */
     border: 2px solid rgb(15, 94, 99);
     color: rgb(15, 94, 99);
     height: 120px;
